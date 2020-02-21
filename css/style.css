@@ -1,0 +1,48 @@
+html , body , #container{
+    height: 100%;
+}
+html , body{
+   margin: 0;
+   padding: 0;
+}
+#container{
+    position: relative;
+}
+#all{
+    min-height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(236, 236, 241, 0.5);
+    border-radius: 10px;
+    margin-bottom: -30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#content{
+    /* min-height: calc(100% - 60px); */
+    /* height: 60px;
+    background-color: brown; */
+    text-align: center;
+}
+/* video {
+    display: none;
+} */
+header , footer {
+    height: 30px;
+    background-color: rgba(8, 157, 177, 0.5);
+    text-align: center;
+    line-height: 30px;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@media screen and (min-device-width: 1020px) {
+    #container {width: 1000px;margin: 0 auto;}
+   }
